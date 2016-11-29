@@ -7,6 +7,12 @@
     <script src="jquery-3.1.0.js"></script>
     <script>
         $(function(){
+            $(".box").mousedown(function(e){
+                e.preventDefault();
+            });
+            $(".box").mousemove(function(e){
+                e.preventDefault();
+            });
             var W=$(".bigbox").width();
             var marginL;
             var num=0;
@@ -22,7 +28,7 @@
                 })
             });
             touch.on("body","dragend",".box",function(e){
-                if(Math.abs(e.x)>100){
+                if(Math.abs(e.x)>200){
                     if(e.direction=="left"){
                         num++;
                         if(num==$(".box li").length){
@@ -36,11 +42,12 @@
                         }
                     }
                     $(".box").css({
-                        marginLeft:-num*W
+                        marginLeft:-num*W,
+                        transition:"margin-left 1s ease"
                     })
                 }else{
                     $(".box").css({
-                        marginLeft:num*W,
+                        marginLeft:-num*W,
                         transition:"margin-left 1s ease"
                     })
                 }
@@ -59,6 +66,7 @@
             overflow: hidden;
         }
         .box{
+            margin-left: 0;
             display: block;
             width: 300%;
             height: 300px;
