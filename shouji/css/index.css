@@ -1,0 +1,99 @@
+html,body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+}
+.swiper-container{
+    width:100%;
+    height:100%;
+}
+.swiper-wrapper{
+    width:100%;
+    height:100%;
+}
+.swiper-slide:nth-child(1){
+    background:#231F29;
+    width:100%;
+    height:100%;
+}
+.icon{
+    width:100%;
+    margin-top:1.36rem;
+    height:4.08rem;
+    background:url(../images/icon.png) 2.14rem 0rem no-repeat;
+    background-size:3.38rem,408rem;
+}
+.icon1{
+    width:100%;
+    height:1.15rem;
+    background:url(../images/icon1.png) 1.3rem 0rem  no-repeat;
+    background-size:4.77rem,1.15rem;
+    margin-top:1rem;
+}
+.icon2{
+    width:100%;
+    height:1.47em;
+    background:url(../images/icon2.png) 1.5rem 0rem no-repeat;
+    background-size:3.87rem,1.47rem;
+    margin-top:1.5rem;
+
+}
+.icon3{
+    width:100%;
+    height:1.83rem;
+    background:url(../images/icon3.png) 1.5rem 0rem no-repeat;
+    background-size:3.96rem,1.83rem;
+    margin-top:0.2rem;
+}
+.swiper-slide:nth-child(2){
+    background:#231F29;
+    width:100%;
+    height:100%;
+}
+.icon20{
+    width:100%;
+    height:0.8rem;
+    background:url(../images/icon20.png) 2rem 0rem no-repeat;
+    background-size:3.99rem,0.8rem;
+    margin-top:0.9rem;
+}
+.icon21{
+    width:100%;
+    height:1.05rem;
+    background:url(../images/icon21.png) 1.76rem 0rem no-repeat;
+    background-size:4.5rem,1.05rem;
+    margin-top:0.4rem;
+}
+.icon22{
+    width:100%;
+    height:10rem;
+    background:url(../images/icon22.png) 0.3rem 0rem no-repeat;
+    background-size:7.5rem,10rem;
+}
+.swiper-slide:nth-child(3){
+    background:#231F29;
+    width:100%;
+    height:100%;
+}
+.icon30{
+    width:100%;
+    height:0.8rem;
+    background:url(../images/icon30.png) 2rem 0rem no-repeat;
+    background-size:3.66rem,0.8rem;
+    margin-top:0.9rem;
+}
+.icon31{
+    width:100%;
+    height:0.42rem;
+    background:url(../images/icon31.png) 1.76rem 0rem no-repeat;
+    background-size:4.57rem,0.42rem;
+    margin-top:0.37rem
+}
+.icon32{
+    width:100%;
+    height:8.61rem;
+    background:url(../images/icon41.png) 1.50rem 0rem no-repeat;
+    background-size:5.84rem,8.61rem;
+    margin-top:1rem;
+}
