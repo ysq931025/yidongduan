@@ -12,16 +12,19 @@ a{
 }
 .swiper-container{
     width:100%;
-    height:100%
+    /*height:100%*/
 }
 .swiper-wrapper{
     width:100%;
-    height:100%;
+    /*height:100%;*/
 }
 .swiper-slide:nth-child(1){
     width:100%;
-    height:100%;
+    /*height:100%;*/
     background:white;
+}
+.swiper-slide{
+    overflow-y:auto;
 }
 header{
     width:100%;
@@ -190,16 +193,30 @@ header{
     height:0.84rem;
     border-right:0.02rem solid #dfdfdf;
     background:url(../images/logo2.png) no-repeat 0 0;
-    backgroundsize:1.24rem auto;
+    background-size:1.24rem auto;
     background-position: 0.06rem 0.06rem;
+    background-position:0.1rem 0.1rem;
+}
+.kk{
+    float:left;
+    width:1.16rem;
+    height:0.84rem;
+    font-size:0.32rem;
+    line-height:0.84rem;
+    text-align:center;
+    background:url(../images/logo2.png) no-repeat 0 0;
+    background-size:1.24rem auto;
+    background-position: -0.1rem -1.8rem;
+
 }
 .logo3{
     float:right;
     width:1.06rem;
     height:0.84rem;
-    background:red;
+    border-left:0.02rem solid #dfdfdf;
     background:url(../images/logo2.png) no-repeat 0 0;
-    backgroundsize:1.24rem auto;
+    background-size:1.24rem auto;
+    background-position:0.25rem -0.8rem;
 }
 .swiper-slide:nth-child(3){
     width:100%;
@@ -213,6 +230,15 @@ header{
     line-height:0.5rem;
     padding:0 0.1rem;
     border-bottom:0.02rem solid #dfdfdf;
+}
+.con3-logo{
+    float:left;
+    width:1.06rem;
+    height:0.84rem;
+    border-right:0.02rem solid #dfdfdf;
+    background:url(../images/logo2.png) no-repeat 0 0;
+    background-size:1.24rem auto;
+    background-position:0.1rem 0.1rem;
 }
 .con31{
     width:100%;
@@ -259,5 +285,22 @@ header{
 .con35{
     width:100%;
     font-size:0.36rem;
+}
+.caty{
+    float:left;
+    width:1.06rem;
+    height:0.84rem;
+    font-size:0.32rem;
+    line-height:0.88rem;
+    text-align:center;
+}
+.box p{
+    font-size:0.36rem;
+}
+.con35i{
+    width:100%;
+    height:3.6rem;
+    background:url(../images/con35.gif) no-repeat;
+    background-size:100% 100%;
 }
 
