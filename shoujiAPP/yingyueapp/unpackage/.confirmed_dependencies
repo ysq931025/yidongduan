@@ -1,0 +1,23 @@
+{
+	"index.html": {
+		"resources": [
+			"css/index.css",
+			"img/banner.png",
+			"js/jquery-3.1.0.js",
+			"js/index.js",
+			"img/home-list3.png",
+			"img/home-list1.png",
+			"img/home-list2.png",
+			"img/h-list1.png",
+			"img/h-list3.png",
+			"img/h-list2.png",
+			"img/tlogo.png",
+			"img/like-head2.png",
+			"img/mianbao.png",
+			"img/sech.png",
+			"img/like-head1.png",
+			"img/like-head3.png",
+			"img/play-head.png"
+		]
+	}
+}

@@ -1,0 +1,105 @@
+html,body{
+	width: 100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+.swiper-container{
+	width:100%;
+	height:100%;
+}
+.swiper-wrapper{
+	width:100%;
+	height:100%;
+}
+.swiper-slide:nth-child(1){
+	background:url(../img/shanping20.png) no-repeat;
+	background-size:100% 100%;
+}
+.shanping11{
+	width:7.16rem;
+	height:6.95rem;
+	margin:0 auto;
+	margin-top: 0.84rem;
+	/*margin-left: 0.36rem;*/
+	background:url(../img/shanping21.png) no-repeat;
+	background-size:100% 100%;
+} 
+.shanping12{
+	width:3.47rem;
+	height:3.7rem;
+	margin:0 auto;
+	margin-top: -4rem;
+	/*margin-left:3rem;*/
+	z-index: 1;
+	background:url(../img/shanping22.png);
+	background-size:100% 100%;
+}
+.shanping13{
+	font-size: 0.7rem;
+/*	margin-left: 0.87rem;*/
+	margin-left:10%;
+	margin-top:1.8rem;
+	color: white;
+}
+.shanping131{
+	/*margin:0 auto;*/
+	color: white;
+	float:right;
+	margin-right: 10%;
+	font-size: 0.7rem;
+		margin-top:0.2rem;
+}
+.swiper-slide:nth-child(2){
+	background:url(../img/shanping33.png);
+	background-size: 100% 100%;
+}
+.shanping20{
+	width:6.54rem;
+	height: 7.88rem;
+	margin: 0 auto;
+	background:url(../img/shanping30.png) no-repeat;
+	background-size: 100% 100%;
+}
+.shanping21{
+	width:6.54rem;
+	height:7.97rem;
+	background:url(../img/shanping31.png) no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+	margin-top: -7.8rem;
+}
+.swiper-slide:nth-child(3){
+	background:url(../img/shanping10.png) no-repeat;
+	background-size: 100% 100%;
+}
+.shanping31{
+	width:6.47rem;
+	height:6.42rem;
+	background:url(../img/shanping11.png) no-repeat;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	margin-top: 0.84rem;
+}
+.shanping32{
+	font-size: 0.7rem;
+	margin-top:1.8rem;
+	color: white;
+	text-align: center;
+}
+.logo{
+	display: block;
+	width:3.3rem;
+	height:0.9rem;
+	border:2px solid white;
+	font-size: 0.5rem;
+	color:white;
+	text-align: center;
+	line-height: 0.9rem;
+	border-radius: 0.45rem 0.45rem;
+	border:0.01rem solid white;
+	margin:0 auto;
+	margin-top: 1rem;
+	text-decoration: none;
+}
+
