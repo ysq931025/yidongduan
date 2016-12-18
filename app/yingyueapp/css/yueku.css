@@ -1,0 +1,210 @@
+html,body,ul,li{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.yueku{
+	width:100%;
+	background:black;
+	overflow: hidden;
+	padding-bottom:1.45rem;
+}
+header{
+	position: fixed;
+	top: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	height: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+	z-index: 99999999;
+	background: #212121;
+	float: left;
+	
+}
+header div{
+	font-size: 0.4rem;
+	color: white;
+	
+}
+header a{
+	font-size: 0.4rem;
+	color: white;
+	text-decoration: none;
+}
+.active{
+	color: #625e34;
+}
+.mianbao{
+	width:0.6rem;
+	height:0.3rem;
+	background:url(../img/mianbao.png) no-repeat;
+	background-size:contain ;
+}
+.sech{
+	width:0.33rem;
+	height:0.33rem;
+	background: url(../img/sech.png) no-repeat;
+	background-size:cover ;
+}
+.yueku-body{
+	padding-top: 1.1rem;
+	width:100%;
+	float: left;
+	background:#231F29;
+}
+.yy-body-title{
+	width:100%;
+	height:1.5rem;
+	font-size:0.4rem;
+	font-weight:bold ;
+	color: white;
+	line-height: 1.5rem;
+	margin-left:0.2rem;
+	float: left;
+}
+.yueku-singer{
+	padding-left:0.2rem;
+	padding-right: 0.2rem;
+	box-sizing: border-box;
+	width:100%;
+	float:left;
+	display:flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.yueku-singer li{
+	display: block;
+	float:left;
+	width:2.25rem;
+	height:3.4rem;
+	
+}
+.yueku-singer-head{
+	width:100%;;
+	height:2.7rem;
+	
+}
+.singer-first{
+	background:url(../img/yueku-singer1.png) no-repeat;
+	background-size: cover;
+}
+.singer-secord{
+	background:url(../img/yueku-singer2.png) no-repeat;
+	background-size: cover;
+}
+.singer-three{
+	background:url(../img/yueku-singer3.png) no-repeat;
+	background-size: cover;
+}
+.singer-four{
+	background:url(../img/yueku-singer4.png) no-repeat;
+	background-size: cover;
+}
+.singer-five{
+	background:url(../img/yueku-singer5.png) no-repeat;
+	background-size: cover;
+}
+.singer-six{
+	background:url(../img/yueku-singer6.png) no-repeat;
+	background-size: cover;
+}
+.yueku-sinner-name{
+	font-size: 0.4rem;
+	color: white;
+	margin-top:0.2rem ;
+}
+.diantai{
+	width:100%;
+	float: left;
+}
+.yueku-diantaia,.yueku-diantaib,.yueku-diantaic{
+	display: block;
+	float:left;
+	width:2.25rem;
+	height:3.4rem;
+}
+.diantai-title{
+	width:100%;
+	height:1.5rem;
+	font-size:0.4rem;
+	font-weight:bold;
+	color:white;
+	margin-left:0.2rem;
+	line-height: 1.5rem;
+}
+.yueku-diantai{
+	display: flex;
+	justify-content: space-around;
+}
+.yueku-diantaia{
+	background:url(../img/diantai1.png) no-repeat;
+	background-size:cover;
+}
+.yueku-diantaib{
+	background:url(../img/diantai2.png) no-repeat;
+	background-size:cover;
+}
+.yueku-diantaic{
+	background:url(../img/diantai3.png) no-repeat 50% 10%;
+	background-size:cover;
+}
+.play{
+	width:100%;
+	height:1.1rem;
+	padding-left:0.3rem ;
+	padding-top:0.3rem ;
+	background:black;
+	position: fixed;
+	z-index: 999999;
+	bottom:0;
+}
+.play-head{
+	float:left;
+	width:0.9rem;
+	height:0.9rem;
+	border-radius: 50% 50%;
+	background:url(../img/play-head.png) no-repeat;
+	background-size:100% 100%;
+}
+.play-con{
+	float: left;
+	margin-left:0.5rem;
+	/*width:6.0rem;*/
+}
+.play-title{
+	font-size:0.3rem;
+	margin-top:0.1rem;
+	color:#949397;
+}
+.play-autor{
+	font-size:0.3rem;
+	color:#949397;
+}
+.play-play{
+	float:right;
+	margin-right:0.5rem;
+	margin-top:0.2rem;
+	width:0.6rem;
+	height:0.6rem;
+	border:0.03rem solid pink;
+	border-radius: 50%;
+}
+.play-play span{
+	display: block;
+	width:0.05rem;
+	height:0.3rem;
+	background:pink;
+}
+.play-play span:nth-child(1){
+	margin-left:0.35rem;
+	margin-top:0.17rem;
+}
+.play-play span:nth-child(2){
+	margin-left:0.20rem;
+	margin-top:-0.3rem;
+}

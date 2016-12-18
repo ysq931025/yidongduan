@@ -1,0 +1,201 @@
+html,body,ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header{
+	position: fixed;
+	top: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	height: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+	z-index: 99999999;
+	background: black;
+	
+}
+header div{
+	font-size:0.4rem;
+	color: white;
+}
+header div:first-child{
+	color:#625e34;
+}
+header a{
+	font-size: 0.4rem;
+	color: white;
+	text-decoration: none;
+}
+.active{
+	color: #625e34;
+}
+.mianbao{
+	width:0.6rem;
+	height:0.3rem;
+	background:url(../img/mianbao.png) no-repeat;
+	background-size:contain ;
+}
+.sech{
+	width:0.33rem;
+	height:0.33rem;
+	background: url(../img/sech.png) no-repeat;
+	background-size:cover ;
+}
+.my{
+	width:100%;
+	background:#212121;
+	overflow: hidden;
+	padding-bottom:1rem;
+	padding-top:1rem;*/
+}
+.my-title{
+	width:100%;
+	height:2.5rem;
+	display: block;
+}
+.my-photo{
+	margin: 0 auto;
+	margin-top:0.4rem;
+	width:2.5rem;
+	height:2.5rem;
+	border-radius: 50%;
+	background:url(../img/my_01.png);
+	background-size: cover;
+}
+.my-name{
+	margin-top:0.3rem;
+	width:100%;
+	height:1rem;
+	padding-left: 0.3rem;
+	padding-right:0.3rem
+	background: #212121;
+}
+.my-name span{
+	display: block;
+	font-size:0.3rem;
+	color:white;
+	text-align: center;
+}
+.my-list{
+	display: block;
+	padding-left: 0.3rem;
+	padding-right:0.3rem;
+}
+.my-list li{
+	display: block;
+	width:100%;
+	height:1.4rem;
+	background: #212121;
+	border-bottom: 0.03rem solid #625e34;
+	padding-left:0.2rem;
+	padding-right:0.2rem;
+	box-sizing: border-box;
+	padding-top:0.4rem;
+	
+}
+.my-list li:nth-child(1){
+	border-top: 0.03rem solid #625e34;
+}
+.my-list li span{
+	display: block;
+	float:left;
+	font-size:0.3rem;
+	color: white;
+}
+.my-list li .fist{
+	margin-left:0.1rem;
+}
+.my-list li .last{
+	float:right;
+}
+.yingyue-icon{
+	float: left;
+	width:0.28rem;
+	height:0.35rem;
+	background: url(../img/images/yingyue-icon_03.png) no-repeat;
+	background-size:contain;
+}
+.yingyue-down{
+	float: left;
+	width:0.28rem;
+	height:0.35rem;
+	background: url(../img/images/download_03.png) no-repeat;
+	background-size:contain;
+}
+.yingyue-tag{
+	float: left;
+	width:0.28rem;
+	height:0.35rem;
+	background: url(../img/images/tag_03.png) no-repeat;
+	background-size:contain;
+}
+.yingyue-vin{
+	float: left;
+	width:0.28rem;
+	height:0.35rem;
+	background: url(../img/images/vin_03.png) no-repeat;
+	background-size:contain;
+}
+.my-bottom{
+	width:100%;
+	height:1rem;
+}
+.play{
+	width:100%;
+	height:1rem;
+	padding-left:0.3rem ;
+	padding-top:0.3rem ;
+	background:black;
+	position: fixed;
+	z-index: 999999;
+	bottom:0;
+}
+.play-head{
+	float:left;
+	width:0.9rem;
+	height:0.9rem;
+	border-radius: 50% 50%;
+	background:url(../img/play-head.png) no-repeat;
+	background-size:100% 100%;
+}
+.play-con{
+	float: left;
+	margin-left:0.5rem;
+	/*width:6.0rem;*/
+}
+.play-title{
+	font-size:0.3rem;
+	margin-top:0.1rem;
+	color:#949397;
+}
+.play-autor{
+	font-size:0.2rem;
+	color:#949397;
+}
+.play-play{
+	float:right;
+	margin-right:0.5rem;
+	margin-top:0.3rem;
+	width:0.6rem;
+	height:0.6rem;
+	border:0.03rem solid pink;
+	border-radius: 50%;
+}
+.play-play span{
+	display: block;
+	width:0.05rem;
+	height:0.3rem;
+	background:pink;
+}
+.play-play span:nth-child(1){
+	margin-left:0.35rem;
+	margin-top:0.17rem;
+}
+.play-play span:nth-child(2){
+	margin-left:0.20rem;
+	margin-top:-0.3rem;
+}

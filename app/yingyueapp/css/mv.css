@@ -1,0 +1,64 @@
+html,body,ul,li{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+header{
+	position: fixed;
+	top: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	height: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+	z-index: 99999999;
+	background: black;
+	
+}
+header a{
+	font-size: 0.4rem;
+	color: white;
+	text-decoration: none;
+}
+.active{
+	color: #625e34;
+}
+.mianbao{
+	width:0.6rem;
+	height:0.3rem;
+	background:url(../img/mianbao.png) no-repeat;
+	background-size:contain ;
+}
+.sech{
+	width:0.33rem;
+	height:0.33rem;
+	background: url(../img/sech.png) no-repeat;
+	background-size:cover ;
+}
+.mv{
+	width: 100%;
+	background: #221f28;
+}
+.mv1,.mv2,.mv3,.mv4{
+	margin-top:0.2rem;
+	display: block;
+	width:100%;
+	height: 4.5rem;
+	background: url(../img/mv1.png) no-repeat;
+	background-size:cover;
+}
+.mv2{
+	background: url(../img/mv2.png) no-repeat;
+	background-size:cover;
+}
+.mv3{
+	background: url(../img/mv3.png) no-repeat;
+	background-size:cover;
+}
+.mv4{
+	background: url(../img/mv4.png) no-repeat;
+	background-size:cover;
+}
