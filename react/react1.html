@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
+</head>
+<body>
+<script src="node_modules/babel-standalone/babel.min.js"></script>
+<div id="example"></div>
+<script type="text/babel">
+    class Hello extends  React.Component{
+        render(){
+            return <div>
+                    {this.props.children.map(function(a,b){
+                        return <li key={b}>{a}</li>
+                    })}
+                 </div>
+            }
+
+    }
+    ReactDOM.render(<Hello><span>span</span><em>em</em></Hello>,
+            document.getElementById("example"));
+</script>
+</body>
+</html>

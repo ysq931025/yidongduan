@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="bigbox"></div>
+    <script type="text/babel">
+        class title extends React.Component{
+            constructor(){
+                super();
+            }
+            render(){
+                return <h3>{this.props.title}</h3>
+            }
+        }
+        class list extends  React.Component{
+            constructor(){
+                super();
+            }
+            render(){
+                return <ul>
+                {
+                    this.props.listdata.map((a,b)=>{
+                    return <li key={b}>{a.con}</li>
+                })
+                }
+                        </ul>
+            }
+        }
+
+        class todo extends  React.Component{
+            constructor(){
+                super();
+                this.state={text:"",arr:[]};
+            }
+            change(e){
+                var val=e.target.value;
+                this.state.text=val;
+            }
+            click(){
+                var obj={
+                    con:this.state.text
+                }
+                this.setState(function(prev){
+                    return  {
+                        arr:prev.arr.concat(obj)
+                    }
+                })
+            }
+            render(){
+                return (
+                        <div>
+                        <title title="待办事项"/>
+                        <list listdata={this.state.arr}/>
+            <input type="text" onChange={this.change.bind(this)}/>
+            <input type="button" value="提交" onClick={this.click.bind(this)}/>
+            </div>
+
+            )
+            }
+        }
+        ReactDOM.render(<todo/>,document.getElementById("bigbox"));
+    </script>
+</body>
+</html>

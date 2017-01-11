@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
+</head>
+<body>
+
+</body>
+<div id="abc"></div>
+<script type="text/babel">
+    class parent extends React.Component{
+        constructor(){
+            super();
+        }
+        render(){
+            return{
+                <ul> <son></son>
+                    </ul>
+            }
+        }
+    }
+    class son extends React.Component{
+        return{
+        <li>1111</li>
+    }
+    }
+    ReactDOM.render(<parent/>,
+            document.getElementById("example"));
+</script>
+</html>

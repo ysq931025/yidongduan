@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="node_modules/react/dist/react.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js"></script>
+    <script src="node_modules/babel-standalone/babel.min.js"></script>
+</head>
+<body>
+
+</body>
+<div id="amen"></div>
+<script type="text/babel">
+    class Hello extends  React.Component{
+        constructor(){
+            super();
+            this.state={name:"zhangsan"}
+        }
+        change(){
+            this.setState{name:"lisi"}
+        }
+        render(){
+            <div onClick={this.change.bind(this)}>{this.state.name}</div>
+        }
+
+    }
+    ReactDOM.render(<Hello/>,
+            document.getElementById("example"));
+</script>
+
+</html>
